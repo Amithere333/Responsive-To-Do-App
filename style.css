@@ -158,7 +158,8 @@ ul{
 @media screen and (max-width:710px) {
 
     .container{
-        width:90%;
+        width:97%;
+        height: auto;
     }
 
     .show-task{
@@ -188,10 +189,7 @@ ul{
         font-size: 19px;
     }
 
-    .container{
-        min-height: 40vh;
-        width:90%;
-    }
+    
 
     
     
