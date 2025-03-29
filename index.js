@@ -54,6 +54,8 @@ button.addEventListener('click',()=>{
         listItem.appendChild(div);
         div.append(p,buttonContainer);
 
+        inputFeild.value='';
+
        
         
 
@@ -62,6 +64,11 @@ button.addEventListener('click',()=>{
 completeBtn.addEventListener('click',()=>{
     
     p.style.textDecoration=p.style.textDecoration==='line-through'?'none':'line-through';
+
+    if(p.style.textDecoration==='line-through') {
+        p.style.textDecorationColor='white';
+        p.style.textDecorationThickness='3px';
+    }
 })
 
 
